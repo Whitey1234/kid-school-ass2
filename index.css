@@ -1,0 +1,164 @@
+/* google font tag */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ 
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+
+
+.body{
+  background-color:   rgb(247, 247, 247);
+}
+
+
+
+
+
+
+
+/* shared */
+.display-flex{
+display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.color-orange{
+    color: rgb(254, 163, 1);
+    font-weight: 700px;
+}
+.color-skybkue{
+    color: rgb(1, 172, 253);
+    font-weight:700px;
+}
+.color-blue{
+    color: rgb(93, 88, 239);
+    font-weight:700px;
+}
+
+/* //////////////////////// */
+
+.nav-container{
+    justify-content:space-between;
+    align-items: center;
+     margin-left: 100px; 
+     margin-right: 100px;
+    text-align: center;
+    
+
+}
+.logo-container{
+    align-items: center;
+    gap: 30px;
+}
+.nav-ul {
+    gap: 20px;
+}
+.btn {
+width: 130px;
+height: 38px;
+border-radius: 12px;
+margin-top: 12px;
+
+/* Orange */
+background: rgb(254, 163, 1);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 13px;
+}
+.enroll-container{
+    margin: 30px 141px;
+    align-items: center;
+    gap: 20px;
+    
+}
+.enroll-h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0%;
+
+}
+.p-enroll{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 12px;
+font-weight: 600px;
+line-height: 12px;
+letter-spacing: 0%;
+
+
+}
+.enroll-btn{
+width: 130px;
+height: 38px;
+
+margin-top: 12px;
+border-radius: 6px;
+
+/* Black */
+background: rgb(17, 17, 17);
+color: white;
+}
+.img-enroll{
+    width: 100%;
+}
+.e-siz6{
+    width: 50px;
+    display: none;
+}
+@media screen and (max-width:576px)
+ {
+    .nav-container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+                      
+    .nav-ul{
+
+        display: none ;
+    }
+    .btn{
+        display: none;
+    
+    }
+    .enroll-container{
+        margin: 0px 0px;
+        flex-direction: column-reverse;
+        
+        
+    }
+    .img-enroll{
+        width: 100%;
+    }
+   
+.e-siz6{
+    width: 50px;
+    display: block;
+}
+.enroll-h1{
+    text-align: center;
+}
+.p-enroll{
+    text-align: center;
+    font-size: 11px;
+}
+.enroll-btn{
+    display: block;
+   
+   margin: 10px auto;
+}
+ }
+
+
