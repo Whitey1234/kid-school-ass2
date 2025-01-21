@@ -97,22 +97,20 @@ letter-spacing: 0%;
 
 }
 .p-enroll{
-    color: rgb(17, 17, 17);
-font-family: Quicksand;
-font-size: 12px;
-font-weight: 600px;
-line-height: 12px;
-letter-spacing: 0%;
+ 
+ color: rgb(17, 17, 17);
+ font-family: Quicksand;
+ font-size: 12px;
+ font-weight: 600px;
+ line-height: 12px;
+ letter-spacing: 0%;
+    }
 
-
-}
 .enroll-btn{
-width: 130px;
-height: 38px;
-
-margin-top: 12px;
-border-radius: 6px;
-
+  width: 130px;
+  height: 38px;
+  margin-top: 12px;
+  border-radius: 6px;
 /* Black */
 background: rgb(17, 17, 17);
 color: white;
@@ -127,6 +125,7 @@ color: white;
 .curriculum-section{
 margin: 100px 150px;
 background-image: url('assets/bg.png');
+height: 600px;
 }
 .curriculam-div{
     display: flex;
@@ -158,13 +157,16 @@ box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
  }
  .card-p{
+ margin-left: 30px;
+ margin-right: 30px;
     color: rgb(128, 128, 128);
     font-family: Raleway;
     font-size: 12px;
     font-weight: 500;
     line-height: 13.3px;
     letter-spacing: 0%;
-    /* text-align: center; */
+    text-align: center;
+    
  }
  .circuule-curiculum{
     display: flex;
@@ -185,6 +187,76 @@ font-size: 24px;
 background: rgb(254, 163, 1);
 
  }
+
+ .storis-section{
+    background-image: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+padding-right: 100px ;
+padding: 100px;
+ }
+ .stori-container{
+/* width: 100px; */
+margin-left: 100px;
+margin-bottom: 100px;
+
+height: 630.52px;
+
+display: grid;
+grid-template-areas: 
+"stories-div1  stories-div2  stories-div3 "
+"stories-div1  stories-div4  stories-div5";
+gap:20px;
+ }
+
+
+ /* grid ares name */
+ .stories-div1{
+    grid-area:stories-div1 ;
+    /* width:  340px;
+    height: 630.52px; */
+ }
+ .stories-div2{
+    grid-area:stories-div2 ;
+ }
+ .stories-div3{
+    grid-area:stories-div3 ;
+ }
+ .stories-div4{
+    grid-area:stories-div4 ;
+ }
+ .stories-div5{
+    grid-area:stories-div5 ;
+ }
+ /* >>>> */
+ .card-stories{
+
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+ }
+ .img-div{
+    border-radius: 16px;
+ }
+/* img section */
+.story-img{
+width: 100%;
+border-top-right-radius: 16px;
+border-top-left-radius: 16px;
+}
+.news-div{
+   margin: 0 50px 
+}
+.h1-class{
+text-align: center;
+}
+.p-stories{
+color: rgb(102, 102, 102);
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+}
 
 
 
