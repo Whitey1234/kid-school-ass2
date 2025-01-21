@@ -36,15 +36,21 @@ a {
 }
 .color-orange{
     color: rgb(254, 163, 1);
-    font-weight: 700px;
+    font-weight:bolder;
+
 }
 .color-skybkue{
     color: rgb(1, 172, 253);
-    font-weight:700px;
+    font-weight:bolder;
 }
 .color-blue{
     color: rgb(93, 88, 239);
-    font-weight:700px;
+    font-weight:bolder;
+
+}
+.p-center{
+    text-align: center;
+    font-size: 12px;
 }
 
 /* //////////////////////// */
@@ -118,6 +124,72 @@ color: white;
     width: 50px;
     display: none;
 }
+.curriculum-section{
+margin: 100px 150px;
+background-image: url('assets/bg.png');
+}
+.curriculam-div{
+    display: flex;
+    gap: 18px;
+    
+ }
+
+ .h2-curriculum{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .curriculum-card{
+    text-align: center;
+box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 12.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+
+ }
+ /* card */
+ .card1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+ }
+ .card2{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+ }
+ .card3{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+ }
+ .card-p{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13.3px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+ }
+ .circuule-curiculum{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+
+ }
+ .circule{
+   
+width: 40px;
+height: 40px;
+border-radius: 30px;
+color: rgb(255, 255, 255);
+font-size: 24px;
+
+/* Orange */
+background: rgb(254, 163, 1);
+
+ }
+
+
+
+/* media query */
+
 @media screen and (max-width:576px)
  {
     .nav-container{
@@ -159,6 +231,14 @@ color: white;
    
    margin: 10px auto;
 }
+.curriculum-section{
+    margin: 0 auto;
+}
+.curriculam-div{
+    flex-direction:column;
+}
+.circuule-curiculum{
+    display: none;
+}
  }
-
-
+ 
